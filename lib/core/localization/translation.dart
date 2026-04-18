@@ -1,0 +1,167 @@
+import 'package:get/route_manager.dart';
+
+class MyTranslation extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+    "ar": {
+      "1": "أختر اللغة",
+      "Forget Password": "نسيان كلمة المرور",
+      "Check Email": "التحقق من الايميل",
+      "please Enter Your Email Address To Receive A verification code":
+          "من فضلك أدخل عنوان بريدك الالكتروني لاستلام كود التحقق",
+      "Enter Your Email": "ادخل بريدك الالكتروني",
+      "Email": "البريد الالكتروني",
+      "Check": "التحقق",
+      "Reset Password": "اعادة تعيين كلمة السر",
+      "New Password": "كلمة السر الجديدة",
+      "Please Enter new Password": "من فضلك أدخل كلمة سر جديدة",
+      "Enter Your Password": "أدخل كلمة السر",
+      "Password": "كلمة السر",
+      "Re Enter Your Password": "أعد ادخال كلمة السر",
+      "Success": "نجاح",
+      "Verified Successfully": "تم التحقق بنجاح",
+      "You successfully reset your password ! press the button bellow to proceed with the app":
+          "لقد قمت بإعادة تعيين كلمة السر بنجاح ! أضغط الزر بالأسفل للاستمرار في التطبيق",
+      "Go To Login": "الانتقال لتسجيل الدخول",
+      "Verification Code": "كود التحقق",
+      "Check Code": "التحقق من الكود",
+      "Please Enter The Digit Code sent To ":
+          "من فضلك أدخل كود التحقق الذي تم ارساله الى ",
+      "Success SignUp": "نجاح إنشاء الحساب",
+      "Sign In": "تسجيل الدخول",
+      "Welcome Back": "مرحباً مجدداً",
+      "Sign In With Your Email And Password Or Continue With Social Media":
+          "سجّل الدخول باستخدام البريد الالكتروني وكلمة السر أو استمر عبر وسائل التواصل",
+      "Don't have an account ? ": "لا تمتلك حساب ؟ ",
+      "Sign Up": "انشاء حساب جديد",
+      "Sign Up With Your Email And Password Or Continue With Social Media":
+          "انشئ حساب باستخدام البريد الالكتروني وكلمة السر أو استمر عبر وسائل التواصل",
+      "Enter Your Username": "أدخل أسم المستخدم",
+      "Username": "اسم المستخدم",
+      "Enter Your Phone": "ادخل رقم هاتفك",
+      "Phone": "رقم الهاتف",
+      "Have an account ? ": "لديك حساب ؟ ",
+      "You are successfully signed up ! press the button bellow to proceed with the app":
+          "لقد تم إنشاء حسابك بنجاح ! أضغط على الزر بالأسفل للاستمرار في التطبيق",
+      "Ar": "عربي",
+      "En": "انجليزي",
+      "Choose Product": "أختر منتج",
+      "We Have a 100K Product, Choose \n Your Product From Our \n PulseCart Shop":
+          "نمتلك 100 الف منتج. أختر منتجك من قائمة متجرنا الواسعة",
+      "Easy and Safe Payment": "سهولة & أمان في الدفع",
+      "Easy Checkout and Safe Payment \n method. Trusted by our Customers \n from all over the world ":
+          "سهولة التصفح والشراء & أمان الدفع. ثقة لدى عملائنا من جميع أنحاء العالم",
+      "Track Your Order": "تتبع طلبك",
+      "Best Tracker has been used For \n Track your order. You'll know where \n your product is at the moment":
+          "أفضل خدمات التتبع تم توفيرها لتتبع طلبك. سوف تكون على علم أين طلبك في أي لحظة",
+      "Fast Deleivery": "سرعة التوصيل",
+      "Reliable And Fast Delivery. We \n Deliver your product the fastest \n way possible":
+          "خدمة توصيل سريعة وموثوقة. نقوم بتوصيل طلبك بأكبر سرعة ممكنة",
+      "Continue": "الاستمرار",
+      "save": "حفظ",
+      "not valid username": "أسم مستخدم غير مقبول",
+      "not valid email": "بريد الكتروني غير مقبول",
+      "not valid phone": "رقم هاتف غير مقبول",
+      "can't be Empty": "لا يمكن أن يكون فارغاً",
+      "can't be less than ": "لا يمكن أن يكون أقل من ",
+      "can't be larger than ": "لا يمكن أن يكون أكبر من ",
+      "warning": "تنبيه",
+      "Do you want to exit app ?": "هل تريد الخروج حقاً من التطبيق ؟",
+      "Confirm": "تأكيد",
+      "Cancel": "الغاء",
+      "Warning": "تحذير",
+      "Phone Number Or Email already Exists!":
+          "رقم الهاتف أو البريد الالكتروني موجود مسبقاً",
+      "Verify Code is not correct": "كود التحقق غير صحيح",
+      "Email Or Password Is Not Correct":
+          "البريد الالكتروني أو كلمة السر غير صحيحة",
+      "Email Not Found": "البريد غير موجود",
+      "Try Again": "حاول مجدداً",
+      "Password Not Match": "كلمة السر لا تتطابق",
+      "Product for you": "منتجات خصيصاً لك",
+      "Find Product": "أبحث عن منتج",
+      "Categories": "التصنيفات",
+      "A summer surprise": "مفاجأة الصيف",
+      "Cashback 20%": "تخفيضات 20%",
+    },
+    "en": {
+      "1": "Choose Language",
+      "Forget Password": "Forget Password",
+      "Check Email": "Check Email",
+      "please Enter Your Email Address To Receive A verification code":
+          "please Enter Your Email Address To Receive A verification code",
+      "Email": "Email",
+      "Check": "Check",
+      "Reset Password": "Reset Password",
+      "New Password": "New Password",
+      "Please Enter new Password": "Please Enter new Password",
+      "Enter Your Password": "Enter Your Password",
+      "Password": "Password",
+      "Re Enter Your Password": "Re Enter Your Password",
+      "Verified Successfully": "Verified Successfully",
+      "You successfully reset your password ! press the button bellow to proceed with the app":
+          "You successfully reset your password ! press the button bellow to proceed with the app",
+      "Go To Login": "Go To Login",
+      "Verification Code": "Verification Code",
+      "Check Code": "Check Code",
+      "Please Enter The Digit Code sent To ":
+          "Please Enter The Digit Code sent To ",
+      "Success SignUp": "Success SignUp",
+      "Enter Your Email": "Enter Your Email",
+      "Sign In": "Sign In",
+      "Welcome Back": "Welcome Back",
+      "Sign In With Your Email And Password Or Continue With Social Media":
+          "Sign In With Your Email And Password Or Continue With Social Media",
+      "Don't have an account ? ": "Don't have an account ? ",
+      "Sign Up": "Sign Up",
+      "Sign Up With Your Email And Password Or Continue With Social Media":
+          "Sign Up With Your Email And Password Or Continue With Social Media",
+      "Enter Your Username": "Enter Your Username",
+      "Username": "Username",
+      "Enter Your Phone": "Enter Your Phone",
+      "Phone": "Phone",
+      "Have an account ? ": "Have an account ? ",
+      "You are successfully signed up ! press the button bellow to proceed with the app":
+          "You are successfully signed up ! press the button bellow to proceed with the app",
+      "Ar": "Ar",
+      "En": "En",
+      "Choose Product": "Choose Product",
+      "We Have a 100K Product, Choose \n Your Product From Our \n PulseCart Shop":
+          "We Have a 100K Product, Choose \n Your Product From Our \n PulseCart Shop",
+      "Easy and Safe Payment": "Easy and Safe Payment",
+      "Easy Checkout and Safe Payment \n method. Trusted by our Customers \n from all over the world ":
+          "Easy Checkout and Safe Payment \n method. Trusted by our Customers \n from all over the world ",
+      "Track Your Order": "Track Your Order",
+      "Best Tracker has been used For \n Track your order. You'll know where \n your product is at the moment":
+          "Best Tracker has been used For \n Track your order. You'll know where \n your product is at the moment",
+      "Fast Deleivery": "Fast Deleivery",
+      "Reliable And Fast Delivery. We \n Deliver your product the fastest \n way possible":
+          "Reliable And Fast Delivery. We \n Deliver your product the fastest \n way possible",
+      "Continue": "Continue",
+      "save": "save",
+      "not valid username": "not valid username",
+      "not valid email": "not valid email",
+      "not valid phone": "not valid phone",
+      "can't be Empty": "can't be Empty",
+      "can't be less than ": "can't be less than ",
+      "can't be larger than ": "can't be larger than ",
+      "warning": "warning",
+      "Do you want to exit app ?": "Do you want to exit app ?",
+      "Confirm": "Confirm",
+      "Cancel": "Cancel",
+      "Warning": "Warning",
+      "Phone Number Or Email already Exists!":
+          "Phone Number Or Email already Exists!",
+      "Verify Code is not correct": "Verify Code is not correct",
+      "Email Or Password Is Not Correct": "Email Or Password Is Not Correct",
+      "Email Not Found": "Email Not Found",
+      "Try Again": "Try Again",
+      "Password Not Match": "Password Not Match",
+      "Product for you": "Product for you",
+      "Find Product": "Find Product",
+      "Categories": "Categories",
+      "A summer surprise": "A summer surprise",
+      "Cashback 20%": "Cashback 20%",
+    },
+  };
+}
