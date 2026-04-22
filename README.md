@@ -1,16 +1,38 @@
-# pulse_cart
+# Pulse Cart – Full Stack E-Commerce Mobile App
 
-A new Flutter project.
+## 📌 Overview
+Pulse Cart is a full-stack e-commerce mobile application built using Flutter for the frontend and Laravel REST API for the backend.  
+The system provides a complete shopping experience including authentication, product browsing, cart, and order placement.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- User registration and login system
+- Email authentication with verification code (OTP)
+- Bilingual support (Arabic / English)
+- Product browsing by categories
+- Product details page
+- Shopping cart system
+- Order placement workflow
+- Push notifications using Firebase
+- Secure REST API integration
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Technologies
+- Flutter (Dart)
+- Laravel (PHP)
+- REST API
+- MySQL
+- Firebase Cloud Messaging (FCM)
+- Git & GitHub
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📌 Note
+This project demonstrates full-stack mobile development with separation between frontend (Flutter) and backend (Laravel API).
+
+---
+
+## 🔗 Repository
+https://github.com/sa-alburaikie/pulse-cart
